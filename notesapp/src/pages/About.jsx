@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';  // Adjust the import path based on your file structure
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const About = () => {
   return (
@@ -12,9 +13,10 @@ const About = () => {
 
         <main>
           <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
-          <img src="https://via.placeholder.com/300" alt="Placeholder" />
+          <img src='./assets/ycgr.jpg' alt="logo" />
         </main>
       </div>
+      <Footer />
     </>
   );
 }
