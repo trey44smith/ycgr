@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,15 +8,20 @@ const Navbar = () => {
         <Link to="/" className="nav-logo">
           You Can Get Rich
         </Link>
-        
+
         <div className="nav-links">
-          <a href="#features" className="nav-link">Features</a>
-          <a href="#team-training" className="nav-link">Memberships</a>
-          <Link to="/about" className="nav-link">About</Link>
-          <a href="https://us-west-183hnjl26y.auth.us-west-1.amazoncognito.com/login?client_id=sk0ptefi5rnd1rj6r4gg83bgd&redirect_uri=http://localhost:5173/&response_type=code&scope=email+openid+phone" 
-             className="download-button">
+          <Link to="/features" className="nav-link">
+            Features
+          </Link>
+          <Link to="/memberships" className="nav-link">
+            Memberships
+          </Link>
+          <Link to="/about" className="nav-link">
+            About
+          </Link>
+          <Link to="/signup" className="nav-link">
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
